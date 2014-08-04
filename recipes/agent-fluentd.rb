@@ -1,4 +1,4 @@
-include_recipe "rosetta::default"
+include_recipe "rosetta-opsworks::default"
 
 # install apache log generator
 if node['rosetta']['agent']['include_loggen']
